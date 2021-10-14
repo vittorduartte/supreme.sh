@@ -36,8 +36,33 @@ installDracula(){
 }
 
 installGnomeTerminal
-installZsh
-installOhMyZSH
-installPowerLevel9k
-installDracula
 
+read -p "Continue to ZSH installation (y/n):" a
+if [[ $a == "y" ]]
+then
+   installZsh
+else	
+   echo "ZSH not installed. Closed installation!"
+   exit 0;
+fi
+
+read -p "Continue to OhMyZSH installation (y/n):" b
+if [[ $b == "y" ]]
+then
+   installOhMyZSH
+else
+   echo "OhMyZSH not installed. Closed installation!"
+   exit 0;
+fi	
+
+read -p "Installing PowerLevel9K Theme (y/n):" c
+if [[ $c == "y" ]]
+then
+   installPowerLevel9k
+fi
+
+read -p "Installing Dracula Color Scheme (y/n):" d
+if [[ $d == "y" ]]
+then
+   installDracula
+fi
