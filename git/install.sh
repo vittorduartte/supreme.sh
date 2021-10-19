@@ -11,5 +11,11 @@ configureGit(){
     git config --global user.email "mateusriograndense@gmail.com"
 }
 
-installGit()
-configureGit()
+installGitKraken(){
+   echo "Installing GitKraken..."
+   sudo snap install gitkraken --classic
+}
+
+installGit
+configureGit
+installGitKraken
