@@ -1,6 +1,0 @@
-Dracula Dark Theme Gnome Terminal - https://draculatheme.com/gnome-terminal
-ZSH - https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
-OhMyZSH - https://ohmyz.sh/#install
-ZSH Syntax Highlighting - https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md 
-ZSHAutoSuggestions - https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
-PowerLevel9K - https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh
