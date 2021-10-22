@@ -10,6 +10,7 @@ configureNvmToZsh(){
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm' >> ~/.zshrc
     echo "!!! Warning !!!"
     echo "Execute source: ~./bashrc and source ~/.zshrc"
+    sleep 3
 }
 
 installNode(){
@@ -17,6 +18,12 @@ installNode(){
     nmv install v14.18.1
 }
 
+installGitmoji(){
+    echo "Installing Gitmoji..."
+    npm i -g gitmoji-cli
+}
+
 installNvm
 configureNvmToZsh
 installNode
+installGitmoji
